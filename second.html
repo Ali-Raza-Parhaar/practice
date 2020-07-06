@@ -2,10 +2,28 @@
 <html>
 <head>
 <title>This first page.</title>
+<style>
+    .audio {
+        color:red;
+        background-color: red;
+        border: 2px solid red;
+        border-radius: 60px 60px 60px 60px;
+    }
+    .audio:hover{
+        border-color: none;
+        border: none;
+        border-radius: none;
+        transform: scale(1.02);
+        transition:  0.1s;
+    }
+</style>
 </head>
 <body style="background-color:#ffff00">
 <h1>This is the first heading.</h1>
 <p style="background-color:red">lorem ipsum sits ammet. this is a dummy text. the text goes here. 
 Lorem ipsum sites ammet. This is a dummy text. <br>The is an dummy paragraph.</p>
+<audio src="Yar_Ko_Hum_Ne_Ja_Baja_Dekha.mp4" controls loop class="audio" ></audio>
+<br>
+<video src="1- Welcome.mp4" controls style=" height:350px; width:450px; border: none; margin: 0px 30% 0px 30%;"></video>
 </body>
 </html>
